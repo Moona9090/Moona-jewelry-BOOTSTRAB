@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F2EFC7;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/*********************start-header******************************/
+.header{
+    background-color: #9f7e69;
+    opacity: 0.8;
+}
+.sch{margin-left: auto;
+}
+.sch input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #F2EFC7;
+    color: #F2EFC7;
+}
+.sch input[type="text"]:focus {
+    outline: none !important;
+}
+.sch ::placeholder {
+    color: #F2EFC7;
+}
+.header-link{
+    color: #F2EFC7 !important;
+}
+.FB:hover{
+    background-color: #F2EFC7 !important;
+}
+.MC{
+    background-color: #F2EFC7 !important;
+}
+.M-BUT{
+    background-color: #D2BBA0;
+}
+
+/*********************end-header******************************/
+/*********************start-carousel******************************/
+.c-but:hover{
+    background-color: #F2EFC7;
+    color: #495057 !important;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 80vh;
+}
+/*********************end-carousel******************************/
+/*********************start-welcome******************************/
+.welcome{
+    background-color: #D2BBA0!important;
+}
+.welcome h2{
+    font-size: 45px;
+}
+/*********************end-welcome******************************/
+hr{
+    background-color: #9f7e69;
+    margin: 2rem 0;
+}
+.main-title{
+    background-color: #D2BBA0;
+    color: #F2EFC7;
+}
+/*********************start-Products******************************/
+.p-link{
+    color: #9f7e69;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.acco:hover .p-link{
+    color: #D2BBA0;
+    font-size: 30px;
+}
+/*********************end-Products******************************/
+/*********************start-discount******************************/
+.discount-item{
+    background-color: #9f7e69;
+}
+.dis-link{
+    color: #F2EFC7;
+}
+.dis-link:hover{
+    color: #FFEEE2;
+}
+.dis-code{
+    color: #F2EFC7;
+}
+/*********************end-discount******************************/
+/*********************start-more******************************/
+.fixed-img{
+    background-image: url(../imges/fixed.jpg);
+    width: 100%;
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fixed-img-2{
+    background-image: url(../imges/fixed2.jpg);
+    width: 100%;
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.more-content{
+    background-color: #9f7e69;
+}
+.more-item{
+   background-color: #FFEEE2;
+}
+.more-but:hover{
+    background-color: #9f7e69;
+    color: #F2EFC7;
+}
+/*********************end-more******************************/
+/*********************start-footer******************************/
+.follow-item{
+    background-color:#F2EFC7 ;
+    width: 18rem;
+    border: none;
+}
+.follow-item a {
+    color: #9f7e69;
+}
+.follow-icon{
+    font-size: 40px;
+}
+.footer-item a{
+    color: #9f7e69;
+}
+.footer-item i{
+    color: #9f7e69;
+}
+/*********************end-footer******************************/

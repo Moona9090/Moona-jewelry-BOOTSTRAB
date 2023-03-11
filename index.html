@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Moona jewelry.com</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Watches,rings,necklace,Earring"/>
+    <meta name="description" content="The best selection of jewelry with low price"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+
+</head>
+<body>
+    <!-- --------------------------------start-header--------------------------------------------------------------- -->
+    <nav class=" navbar navbar-expand-lg header navbar-dark  sticky-top">
+        <div class="container-fluid header-content">
+            <a href="#" class="navbar-brand">
+                <img class="rounded-circle" src="imges/nav brand.png" alt="logo" style="width: 40px;">
+            </a>
+            <a href="#" class="navbar-brand font-weight-bold">Moona jewelry</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcollapse">
+                <ul class="navbar-nav ml-5 ">
+                    <li class="nav-item"><a href="#" class="nav-link active  header-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link header-link">Stores</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link header-link">Collections</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle header-link" data-toggle="dropdown">More</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item text-secondary">Products</a></li>
+                            <li><a href="#" class="dropdown-item text-secondary">discount codes</a></li>
+                            <li><a href="#" class="dropdown-item text-secondary">Trending pieces</a></li>
+                            <li><a href="#" class="dropdown-item text-secondary">More</a></li>
+                            <li><a href="#" class="dropdown-item text-secondary">Partners</a></li>
+                            <li><a href="#" class="dropdown-item text-secondary">Follow US</a></li>
+                            <li><a href="#" class="dropdown-item text-secondary">About US</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex sch">
+                    <input class=" p-1 mr-sm-2 bg-transparent" type="text" placeholder="Search">
+                    <button class="btn btn-outline-light mr-sm-3 FB " type="submit">Search</button>
+                </form>
+                <form class="d-flex">
+                    <button class="btn btn-outline-light FB" type="button" data-toggle="modal" data-target="#logmodal">Login</button>
+                </form>
+
+            </div><!-- collapse -->
+        </div><!-- container-fluid -->
+    </nav>
+    <div class="modal fade" id="logmodal">
+        <div class="modal-dialog">
+            <div class="modal-content MC">
+                <div class="modal-header">
+                    <h3>Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div><!-- modal-header -->
+                <div class="modal-body">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    <p>We'll never share your email with anyone else.</p>
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="switch1">
+                        <label class="custom-control-label" for="switch1">Remember me</label>
+                    </div>
+                    <button type="submit" class="btn M-BUT mt-3">login</button>
+                </div><!-- modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div><!-- modal-footer -->
+            </div><!-- modal-content -->
+        </div><!-- modal-dialog -->
+    </div><!-- modal -->
+    <!---------------------------------------- end-header ---------------------------------------------------------->
+    <!-- --------------------------------------start-carousel-------------------------------------------------------- -->
+    <div class="carousel slide" id="demo" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imges/slider1.jpg" alt="photo">
+                <div class="carousel-caption">
+                    <h2>Watches</h2>
+                    <button class="btn btn-outline-light text-light c-but">SHOP NOW</button>
+                </div><!-- "carousel-caption -->
+            </div><!-- carousel-item -->
+            <div class="carousel-item">
+                <img src="imges/slider2.jpg" alt="photo">
+                <div class="carousel-caption">
+                    <h2>Rings</h2>
+                    <button class="btn btn-outline-light text-light c-but">SHOP NOW</button>
+                </div><!-- "carousel-caption -->
+            </div><!-- carousel-item -->
+            <div class="carousel-item">
+                <img src="imges/slider3.png" alt="photo">
+                <div class="carousel-caption">
+                    <h2>Necklace</h2>
+                    <button class="btn btn-outline-light text-light c-but">SHOP NOW</button>
+                </div><!-- "carousel-caption -->
+            </div><!-- carousel-item -->
+            <div class="carousel-item">
+                <img src="imges/slider4.jpg" alt="photo">
+                <div class="carousel-caption">
+                    <h2>Earring</h2>
+                    <button class="btn btn-outline-light text-light c-but">SHOP NOW</button>
+                </div><!-- "carousel-caption -->
+            </div><!-- carousel-item -->
+        </div><!-- carousel-inner -->
+        <a href="#demo" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#demo" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div><!-- carousel -->
+    <!-- --------------------------------------end-carousel-------------------------------------------------------- -->
+    <!-- --------------------------------------start-welcome---------------------------------------------------- -->
+    <div class="jumbotron jumbotron-fluid bg-dark text-light p-4  welcome">
+        <div class="container-fluid">
+            <h2>Welcome</h2>
+            <p>We believe in making every woman feel precious, unique, desirable and admired.</p>
+            <button class="btn btn-outline-light mt-3" type="button">SHOP NOW</button>
+        </div><!-- contener -->
+    </div><!-- jumbotron -->
+    
+    <!-- --------------------------------------end-welcome---------------------------------------------------- -->
+    <!-- --------------------------------------start-products---------------------------------------------------------- -->
+    <hr>
+    <h2 class="main-title text-center p-4">Products</h2>
+    <div id="accordion">
+
+        <div class="card acco">
+          <div class="card-header text-center">
+            <a class="card-link p-link" data-toggle="collapse" href="#collapse1">
+                Watches
+            </a>
+          </div>
+          <div id="collapse1" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                Much more than just a timepiece, it signifies priceless moments or stories that are captured by the sentimental value that the Watches by Damas hold.
+                 They are also the perfect piece for gifting on special occasions or milestones in life that generate an emotional link to these prestigious Watches.
+            </div>
+          </div>
+        </div>
+      
+        <div class="card acco">
+          <div class="card-header text-center">
+            <a class="collapsed card-link p-link" data-toggle="collapse" href="#collapse2">
+              Rings
+            </a>
+          </div>
+          <div id="collapse2" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                Mimosa is inspired by the flower of the same name chosen as a symbol of womanhood and femininity: Its interesting to remember, that these precious stones are set,
+                 just like the Mimosa flower, to create a precious sense of “apparent chaos”, a design that magnifies the jewels three-dimensionality and enhances its dazzling brightness.
+                  From apparent chaos to meticulous order:
+            </div>
+          </div>
+        </div>
+      
+        <div class="card acco">
+          <div class="card-header text-center">
+            <a class="collapsed card-link p-link" data-toggle="collapse" href="#collapse3">
+                Necklace
+            </a>
+          </div>
+          <div id="collapse3" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                Farfasha necklace provides an intriguing beauty, with mother-of-pearl flowers set on 18K yellow gold. Farfasha holds true to its essence of living life to the fullest,
+                 featuring fashionable jewellery, with the perfect mix of gold, diamonds and gemstones guaranteeing an effortlessly chic look.
+            </div>
+          </div>
+        </div>
+        <div class="card acco">
+            <div class="card-header text-center">
+              <a class="collapsed card-link p-link" data-toggle="collapse" href="#collapse4">
+                Earring
+              </a>
+            </div>
+            <div id="collapse4" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                18K Roman Barocco Rose Gold Earring with 0.472ct diamonds. The Roman Barocco collection stems from the classic technique of Roberto Coins Barocco line ,
+                 inspired by the beauty of the Italian city that the emperor Adrian consecrated as the Eternal City, cradle of all western culture.
+              </div>
+            </div>
+          </div>
+      </div>
+    <!-- --------------------------------------end-products---------------------------------------------------------- -->
+    <!-- --------------------------------------start-discount-codes---------------------------------------------------------- -->
+    <hr>
+    <h2 class="main-title text-center p-4 m-0">Watchs discount code</h2>
+    <div class="discount-codes">
+        <div class="card discount-item">
+            <div class="card-body">
+                <h3 class="card-title text-light">Use this code to get 50% discount
+                    <a class="text-decoration-none dis-link" href="#">USE</a>
+                </h3>
+                <button class="btn btn-outline-light mt-1" data-toggle="tooltip" data-placement="left" title="copy!">copy</button>
+                <pre class="dis-code ">
+                    <code style="font-size: 30px;">Moona/discount/50%---"watchs"</code>
+                </pre> 
+            </div><!-- card-body -->
+        </div><!-- card -->
+        <hr>
+        <h2 class="main-title text-center p-4 m-0">Rings discount code</h2>
+        <div class="card discount-item">
+            <div class="card-body">
+                <h3 class="card-title text-light">Use this code to get 50% discount
+                    <a class="text-decoration-none dis-link" href="#">USE</a>
+                </h3>
+                <button class="btn btn-outline-light mt-1" data-toggle="tooltip" data-placement="left" title="copy!">copy</button>
+                <pre class="dis-code ">
+                    <code style="font-size: 30px;">Moona/discount/50%---"Rings"</code>
+                </pre> 
+            </div><!-- card-body -->
+        </div><!-- card -->
+        <hr>
+        <h2 class="main-title text-center p-4 m-0">Necklace discount code</h2>
+        <div class="card discount-item">
+            <div class="card-body">
+                <h3 class="card-title text-light">Use this code to get 50% discount
+                    <a class="text-decoration-none dis-link" href="#">USE</a>
+                </h3>
+                <button class="btn btn-outline-light mt-1" data-toggle="tooltip" data-placement="left" title="copy!">copy</button>
+                <pre class="dis-code ">
+                    <code style="font-size: 30px;">Moona/discount/50%---"Necklace"</code>
+                </pre> 
+            </div><!-- card-body -->
+        </div><!-- card -->
+        <hr>
+        <h2 class="main-title text-center p-4 m-0">Earring discount code</h2>
+        <div class="card discount-item">
+            <div class="card-body">
+                <h3 class="card-title text-light">Use this code to get 50% discount
+                    <a class="text-decoration-none dis-link" href="#">USE</a>
+                </h3>
+                <button class="btn btn-outline-light mt-1" data-toggle="tooltip" data-placement="left" title="copy!">copy</button>
+                <pre class="dis-code ">
+                    <code style="font-size: 30px;">Moona/discount/50%---"Earring"</code>
+                </pre> 
+            </div><!-- card-body -->
+        </div><!-- card -->
+    </div><!-- discount-codes -->
+    <!-- --------------------------------------end-discount-codes---------------------------------------------------------- -->
+    <!-- --------------------------------------start-more---------------------------------------------------------- -->
+    <hr>
+    <div class="fixed-img"></div>
+    <h2 class="main-title text-center p-4 m-0">Trending pieces</h2>
+    <div class="container-fluid">
+        <div class="more-content row justify-content-around pb-5">
+            <div class="more-item card col-lg-2 col-md-4 m-1 mt-5" style="width: 18rem;">
+                <input type="image" src="imges/more1.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title">watches</h3>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <button class="btn btn-outline-dark more-but">GET NOW</button>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="more-item card col-lg-2 col-md-4 m-1 mt-5" style="width: 18rem;">
+                <input type="image" src="imges/more2.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title">watches</h3>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <button class="btn btn-outline-dark more-but">GET NOW</button>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="more-item card col-lg-2 col-md-4 m-1 mt-5" style="width: 18rem;">
+                <input type="image" src="imges/more3.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title">watches</h3>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <button class="btn btn-outline-dark more-but">GET NOW</button>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="more-item card col-lg-2 col-md-4 m-1 mt-5" style="width: 18rem;">
+                <input type="image" src="imges/more4.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title">watches</h3>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <button class="btn btn-outline-dark more-but">GET NOW</button>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="more-item card col-lg-2 col-md-4 m-1 mt-5" style="width: 18rem;">
+                <input type="image" src="imges/more5.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title">watches</h3>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <button class="btn btn-outline-dark more-but">GET NOW</button>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="more-item card col-lg-2 col-md-4 m-1 mt-5" style="width: 18rem;">
+                <input type="image" src="imges/more6.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title">watches</h3>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <button class="btn btn-outline-dark more-but">GET NOW</button>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="more-item card col-lg-2 col-md-4 m-1 mt-5" style="width: 18rem;">
+                <input type="image" src="imges/more7.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title">watches</h3>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <button class="btn btn-outline-dark more-but">GET NOW</button>
+                </div><!-- card-body -->
+            </div><!-- card -->
+        </div><!-- row -->
+    </div><!-- container-fluid -->
+    <!-- --------------------------------------end-more---------------------------------------------------------- -->
+    <div class="fixed-img-2"></div>
+    <hr>
+    <h2 class="main-title text-center p-4 m-0">Partners</h2>
+    <!-- --------------------------------------start-Partners---------------------------------------------------------- -->
+    <div class="Partners container-fluid">
+        <div class="row justify-content-center m-5 pt-2">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="imges/partner1.jpg" alt="photo">
+                <div class="card-body">
+                    <p class="card-text">Damas</p>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="card m-3" style="width: 18rem;">
+                <img src="imges/partner2.png" alt="photo">
+                <div class="card-body">
+                    <p class="card-text">Lazurde</p>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="card m-3" style="width: 18rem;">
+                <img src="imges/partner3.jpg" alt="photo">
+                <div class="card-body">
+                    <p class="card-text">Versace</p>
+                </div><!-- card-body -->
+            </div><!-- card -->
+        </div><!-- row -->
+    </div><!-- Partners -->
+    <!-- --------------------------------------end-Partners---------------------------------------------------------- -->
+    <hr>
+    <h2 class="main-title text-center p-4 m-0">Follow US</h2>
+    <!-- --------------------------------------start-Follow US---------------------------------------------------------- -->
+    <div class="container-fluid pb-5">
+        <div class="row justify-content-center">
+            <div class="card follow-item  m-3">
+                <div class="card-body d-flex flex-column text-center">
+                    <h5 class="card-title">Subscribe Now</h5>
+                    <a class="follow-icon my-3" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="text-decoration-none" href="#">GO NOW</a>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="card follow-item  m-3">
+                <div class="card-body d-flex flex-column text-center">
+                    <h5 class="card-title">Follow</h5>
+                    <a class="follow-icon my-3" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="text-decoration-none" href="#">GO NOW</a>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="card follow-item  m-3">
+                <div class="card-body d-flex flex-column text-center">
+                    <h5 class="card-title">Like the page</h5>
+                    <a class="follow-icon my-3" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="text-decoration-none" href="#">GO NOW</a>
+                </div><!-- card-body -->
+            </div><!-- card -->
+            <div class="card follow-item  m-3">
+                <div class="card-body d-flex flex-column text-center">
+                    <h5 class="card-title">watch vedios</h5>
+                    <a class="follow-icon my-3" href="#"><i class="fab fa-twitch"></i></a>
+                    <a class="text-decoration-none" href="#">GO NOW</a>
+                </div><!-- card-body -->
+            </div><!-- card -->
+        </div><!-- row -->
+    </div><!-- container-fluid -->
+    <!-- --------------------------------------end-Follow US---------------------------------------------------------- -->
+    <!-- --------------------------------------start-Footer---------------------------------------------------------- -->
+    <footer>
+        <div class="container-fluid text-center pb-5">
+            <div class="row justify-content-center">
+                <div class="footer-item col-md-4 ">
+                    <hr>
+                    <h4><i class="far fa-gem"></i></i> Good Company</h4>
+                    <hr>
+                    <p>Tel : 000-000-000</p>
+                    <p>Address : EGYPT</p>
+                    <p>Fax : 000-000-000</p>
+                </div><!-- footer-item -->
+                <div class="footer-item col-md-4 ">
+                    <hr>
+                    <h4><i class="far fa-gem"></i> Good Company</h4>
+                    <hr>
+                    <p><a href="#">Visit Us</a></p>
+                    <p><a href="#">Take a look</a></p>
+                    <p><a href="#">Your health is more important</a></p>
+                </div><!-- footer-item -->
+                <div class="footer-item col-md-4 ">
+                    <hr>
+                    <h4><i class="far fa-gem"></i> Vision</h4>
+                    <hr>
+                    <p>Serveices for al</p>
+                    <p>Provide best serveices</p>
+                    <p>you will be better than before</p>
+                </div><!-- footer-item -->
+            </div><!-- row -->
+            <hr>
+            <p>Copyright © 2023 Moona Jewelry, Good Company. All rights</p>
+            <hr>
+        </div><!-- container-fluid -->
+    </footer>
+    <!-- --------------------------------------start-Footer---------------------------------------------------------- -->
+
+
+
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+
+
+</html>
